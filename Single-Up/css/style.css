@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.ramka{
+    border-radius: 32px;
+    background-color: rgb(255, 255, 255);
+    max-height: 620px;
+    min-height: 620px;
+    max-width: 610px;
+    min-width: 610px;
+    margin: 130px 0 0 0;
+    padding: 40px;
+}
+
+.ramka h1{
+    padding-bottom: 10px;
+}
+
+.container-header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+}
+
+.container-middle{
+   display: grid;
+   grid-template-columns: 200px;
+   padding: 20px;
+}
